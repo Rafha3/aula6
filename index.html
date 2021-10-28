@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Tabelas</title>
+</head>
+<body>
+  <header>
+    <h2>Tabelas em HTML</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Principal</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+  <h1>Tabelas</h1>
+  <table border="1">
+    <caption>Economias do Ano</caption>
+    <thead>
+      <tr>
+        <th>Mês</th>
+        <th>Poupança</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Janeiro</td><td>R$100</td>
+      </tr>
+      <tr>
+        <td>Fevereiro</td><td>R$140</td>
+      </tr>
+      <tr>
+        <td>Março</td><td>R$100</td>
+      </tr>
+    </tbody>  
+    <tfoot>
+      <tr>
+        <td>Total do ano</td>
+        <td>R$340</td>
+      </tr>
+    </tfoot>
+    
+  </table>
+  <hr>
+  <table border="1">
+    <caption>Dados Estatísticos 
+  dos Estados</caption>
+    <thead>
+     <tr>
+      <th rowspan=2>Estado</th>
+      <th colspan=3>Dados Estatísticos</th>
+     </tr>
+     <tr>
+      <th>População</th>
+      <th>Área Total</th>
+      <th>Densidade Populacional</th>
+     </tr>
+    </thead>
+    <tbody>
+      <tr>
+       <td>São Paulo</td>
+       <td>49.919.049 hab.</td>
+       <td>248.222,346 km<sup>2</sup></td>
+       <td>30 pessoas/km<sup>2</sup></td>
+      </tr>
+      <tr>
+       <td>Rio de Janeiro</td>
+       <td>17.366.189 hab.</td>
+       <td>43.780.172 km<sup>2</sup></td>
+       <td>10 pessoas/km<sup>2</sup></td>
+      </tr>         
+     </tbody>
+   </table>
+<hr>
+<table>
+  <colgroup>
+      <col span="2" style="background-color:lightblue">
+      <col style="background-color:lightsalmon">
+  </colgroup>
+  <tr>
+      <th>Código</th>
+      <th>Curso</th>
+      <th>autor</th>
+  </tr>
+  <tr>
+      <td>3476896</td>
+      <td>Html para quem nao sabe nada de Html</td>
+      <td>Paulo Andrade</td>
+  </tr>
+  <tr>
+      <td>1089344</td>
+      <td>Redes de Computadores e a Internet</td>
+      <td>Paulo Andrade</td>
+  </tr>
+</table>
+</main>
+<footer>
+  <p>Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
